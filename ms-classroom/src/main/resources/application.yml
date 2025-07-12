@@ -1,0 +1,9 @@
+server:
+  port: 8096
+spring:
+  application:
+    name: ms-classroom
+  r2dbc:
+    url: r2dbc:mssql://${DB_HOST}:${DB_PORT}/${DB_NAME}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}

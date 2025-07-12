@@ -1,0 +1,8 @@
+rootProject.name = 'educational-institution'
+
+include 'ms-classroom'
+include 'ms-course'
+include 'ms-enrollment'
+include 'ms-parents'
+include 'ms-student'
+include 'ms-teacher'
